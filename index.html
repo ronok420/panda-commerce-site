@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
             <div class="container border rounded">
               <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="images/logo.png" alt="" >
@@ -26,10 +26,10 @@
                     <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#bags">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                  
                   
@@ -205,7 +205,7 @@
 
 
       <!-- bag item start -->
-      <section class="container my-5">
+      <section class="container my-5" id="bags">
         <h2 id="shoes">Bags</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -236,7 +236,7 @@
             <div class="border border-0 shadow-lg card h-100">
               <img src="/images/bags/bag-3.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Blackon max 30</h5>
+                <h5 class="card-title">Blackon max 30</h5>  
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
               <div class="m-4">
@@ -248,6 +248,29 @@
       </section>
 
       <!-- bag item end -->
+
+
+      <!-- user feedback item start  -->
+      <section style="height: 350px;" id="subscribe" class="container d-flex justify-content-center align-items-center bg-danger-subtle shadow-lg rounded-3 my-5">
+        <div>
+          <h2>Please stay in touch</h2>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Please share your valuable feedback to us</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          
+        </div>
+        
+
+      </section>
+
+
+      <!-- user feedback item end here -->
 
       
     </main>
